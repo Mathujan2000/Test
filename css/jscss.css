@@ -1,0 +1,19 @@
+body {
+    background: #333;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: top;
+  }
+  
+  table {
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+  }
+  
+  td {
+    box-shadow: 0px 0px 1px 0px black;
+    width: 0%;
+    height: 0%;
+  }

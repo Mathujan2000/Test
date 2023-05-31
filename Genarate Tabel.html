@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/jscss.css">
+    <title>Tabel</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Table Generator</h1>
+      <label for="cols">Aantal Columns:</label>
+      <input type="number" id="cols" name="cols" min="1" oninput="validity.valid||(value='');">
+      <br>
+      <label for="rows">Aantal Rows:</label>
+      <input type="number" id="rows" name="rows" min="1" oninput="validity.valid||(value='');">
+      <br>
+      <button id="generate-table" onclick="geneerTabel()">Generate Table</button>
+      <br>
+      <div id="table-container" onmouseover="ChangeBackgroundColor(this)"></div>
+    </div>
+    <script src="jseind.js"></script>
+  </body>
+</html>
